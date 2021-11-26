@@ -1,0 +1,4 @@
+x="lol"
+y="fuck"
+
+print("apple",x,y)
