@@ -31,5 +31,7 @@ print(evens)
 # argument 2 is a iretable object
 
 # supose i want ever even number doubled we use
-doubled_even=set(map(lambda a:a*a,evens))
+doubled_even=list(map(lambda a:a*a,evens))
 print(doubled_even)
+#  it takes 2 arguments first is the function which discribes what do you want to do 
+# argument 2 is a iretable object
