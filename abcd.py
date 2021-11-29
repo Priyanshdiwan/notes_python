@@ -13,4 +13,3 @@ for i in range(26):
        print(alphatbet[j], end=" ")
    print()
 
-#   just adding 
