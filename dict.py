@@ -30,6 +30,7 @@
 # x=input()
 # print(dict[x])
 
+# Print capital of cuntry using map function
 name_country=input("enter country")
 dict1={"india":"delhi","pakistan":"karachi","bangladesh":"dhaka"}
 def printer(n):
@@ -38,7 +39,6 @@ def printer(n):
  
 result=list(map(printer,dict1))
 x=list(dict1.values())
-print(x)
 for ch in result:
     if ch in x:
         print(ch)
