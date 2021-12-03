@@ -26,7 +26,7 @@
 # f.close()
 
 # handle reaf and write both
-f= open("jord2.txt", "r+")
+# f= open("jord2.txt", "r+")
 
 # f.write("priyansh was always jord")# neeche nhi be 1st line of code mai add karta hai
 # print(f.readline())
@@ -37,6 +37,25 @@ f= open("jord2.txt", "r+")
 
 
 #OPEN FILE WITH BLOCK
-with open ("jord.txt") as f:
-    print(f.read(10))
+# with open ("jord.txt") as f:
+    # print(f.read(10))
 #close karne ka zarurat nhi hai
+
+
+
+# CLASSQUESTION: INPUT 5 NAME AND ROLL NO. AND APPEND IT IN FILE AND THEN READ IT!
+for i in range(2):
+    registration=input("Enter the registration number")
+    with open("student_detials.txt","a") as f:
+        f.write(registration)
+        f.close()
+    name=input("Eneter nme of the student")
+    with open("student_detials.txt","a") as f:
+        f.write(name)
+        print(f.tell())
+        f.close()
+
+
+with open("student_detials.txt") as f:
+    print(f.readline())
+    f.close()
