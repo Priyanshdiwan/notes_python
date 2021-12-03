@@ -38,7 +38,7 @@ with open("binaryyfilee.txt","wb+") as f:
  for i in range(5):
      n=p.load(f)
      if search_name==n:
-         print(f"{n}is a{i}th entry")
+         print(f"{n}is a {i}th entry in the list")
     
 
 
