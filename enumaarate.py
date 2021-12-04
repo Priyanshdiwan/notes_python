@@ -7,7 +7,7 @@ l1=["aaple","pineapple","lichi","banana"]
 #     if i%2!=0:
 #         print(item)
 #     i+=1
-
+obj1 = enumerate(l1)
 for i,item in enumerate(l1):
     if i%2==0:
         print(f"the {i}th item in the list is {item} ")
@@ -16,7 +16,7 @@ for i,item in enumerate(l1):
 print ("Return type:",type(obj1))
 print (list(enumerate(l1)))
  
-obj1 = enumerate(l1)
+
 s1 = "geek"
 
 
