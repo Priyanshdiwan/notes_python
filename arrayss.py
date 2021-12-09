@@ -18,10 +18,12 @@ import array as a
 # p=a.array("i",sorted(b))
 # print(p)
 
-m=a.array("d",[1,2,3,4,5,6,7,8])
-n=a.array("d",[1,2,3,4,5,6,7,8])
-sums=("d",[])
-for i in range(8):
-    sums.append(m[i]+n[i])
+# m=a.array("d",[1,2,3,4,5,6,7,8])
+# n=a.array("d",[1,2,3,4,5,6,7,8])
+# sums=([])
+# for i in range(8):
+#     sums.append(m[i]+n[i])
 
-print(sums)
+# print(sums)
+
+print( "aaj thrusday hai!")
